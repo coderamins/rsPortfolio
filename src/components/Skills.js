@@ -1,4 +1,4 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { BadgeCheckIcon, ChipIcon, FilterIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
 
@@ -18,16 +18,24 @@ const Skills = () => {
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
+          {skills
+            .sort((a, b) => (a.level > b.level ? -1 : 1))
+            .map((skill) => (
+              <div key={skill.name} className="p-2 sm:w-1/2 w-full">
+                <div
+                  className="bg-green-500 rounded flex p-4 h-7 items-center"
+                  style={{ width: skill.level + "%" }}
+                >
+                  <BadgeCheckIcon className="text-green-900 w-6 h-6 flex-shrink-0 mr-4" />
+                  <span className="title-font font-medium text-green-900">
+                    {skill.name}
+                  </span>
+                  <div className="text-yellow-800 flex-shrink text-bold m-5">
+                      {skill.level}%
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       </div>
     </section>

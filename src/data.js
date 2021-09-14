@@ -50,12 +50,24 @@ export const testimonials = [
   },
 ];
 
-export const skills = [
-  {name:"JavaScript",level="50"},
-  {name:"React",level="50"},
-  {name:"C#",level="50"},
-  {name:"Asp.net",level="50"},
-  {name:"Dotnet Core",level="50"},
-  {name:"EF Core",level="50"},
-  {name:"Stimul",level="50"},
+export const skills = [  
+  {name:"JavaScript",level:"45"},
+  {name:"React",level:"40"},
+  {name:"C#",level:"75"},
+  {name:"Asp.net",level:"80"},
+  {name:"Dotnet Core",level:"45"},
+  {name:"EF Core",level:"35"},
+  {name:"Stimulsoft",level:"65"},
+  {name:"MVC",level:"76"},
+  {name:"jquery",level:"80"},
+  {name:"RestApi",level:"85"},
+  {name:"SqlServer",level:"55"},
+  {name:"LINQ",level:"75"},
+  {name:"Telegram Api",level:"80"},
+  {name:"OOP",level:"55"},
+  {name:"HTML",level:"85"},
+  {name:"CSS",level:"75"},
+  {name:"Bootstrap",level:"60"},
+  {name:"MaterialUI",level:"45"},
+  {name:"JWT",level:"65"},
 ];
