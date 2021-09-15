@@ -33,20 +33,20 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const educations = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+    uniname:"Tabriz Technical College",
+    grade:"Associate Degree",
+    image: "/edu-logo.png",
+    gradu_date: "June, 2010",
+    desc: "Zoozle",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    uniname:"Bojnourd Technical College",
+    grade:"Bachelor",
+    image: "/edu-logo.png",
+    gradu_date: "September, 2013",
+    desc: "Zoozle",
   },
 ];
 

@@ -22,7 +22,7 @@ const Contact = () => {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Iran  <br />
+                Iran <br />
                 Tehran, Khalij
               </p>
             </div>
@@ -36,8 +36,8 @@ const Contact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">IR: +98 9930701955</p>
-              <p className="leading-relaxed">TR: +90 5466556977</p>
+              <p className="leading-relaxed"><img src="/irn.png" className="w-5 inline"/> IR: +98 9930701955</p>
+              <p className="leading-relaxed"><img src="/tur.png" className="w-5 inline"/> TR: +90 5466556977</p>
             </div>
           </div>
         </div>
@@ -50,8 +50,8 @@ const Contact = () => {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            If you need a committed, creative and code-loving programmer, I'm
+            here.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

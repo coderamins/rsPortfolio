@@ -5,20 +5,13 @@ const About = () => {
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <img
-              alt="testimonial"
-              src="https://randomuser.me/api/portraits/men/1.jpg"
-              className="w-12 rounded-full flex-shrink-0 object-cover object-center "
-            />
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm {"<Ramin Solhi/>"}.
             <br className="hidden lg:inline-block" />I love to build amazing
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          FullStack developer with more than 7 years of programming experience and skills in C #, ASP.Net, MVC, KnouckoutJS, React, Bootstrap
           </p>
           <div className="flex justify-center">
             <a
